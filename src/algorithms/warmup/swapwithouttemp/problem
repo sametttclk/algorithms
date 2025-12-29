@@ -1,0 +1,28 @@
+Problem: Swap Two Variables Without Temporary Variable
+
+Description:
+Given two integer variables a and b, swap their values
+without using a third (temporary) variable.
+
+Input:
+Two integers a and b.
+
+Output:
+After swapping, print the new values of a and b.
+
+Example:
+Input:
+a = 5
+b = 9
+
+Output:
+a = 9
+b = 5
+
+Constraints:
+- No temporary variable is allowed
+- Integers can be positive or negative
+
+Purpose:
+This problem tests basic algorithmic thinking and
+understanding of arithmetic or bitwise operations.
