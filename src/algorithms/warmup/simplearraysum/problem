@@ -1,0 +1,22 @@
+Problem: Simple Array Sum
+
+Description:
+Given an integer array, calculate the sum of its elements.
+
+Input Format:
+- First line: n (size of the array)
+- Second line: n space-separated integers
+
+Constraints:
+- 0 < n ≤ 1000
+- -1000 ≤ arr[i] ≤ 1000
+
+Output Format:
+- Single integer: the sum of the array elements
+
+Example:
+Input:
+5
+1 2 3 4 10
+Output:
+20
