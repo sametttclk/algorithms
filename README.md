@@ -3,14 +3,19 @@
 This repository contains my Java solutions for various algorithm problems.  
 It is designed to demonstrate clean code, problem-solving skills, and algorithmic thinking.
 
-## Structure
+## Project Structure
 
-- `algorithms/`: Contains problem categories
-  - `warmup/`: Basic problems
-    - `PlusMinus/`
-      - `problem.txt` - problem description
-      - `Solution.java` - solution code
-  - `implementation/`: More complex problems
+- `algorithms/` ← Java project folder
+  - `src/main/java/algorithms/` ← package root
+    - `warmup/`: Basic problems
+      - `plusminus/`
+        - `problem.txt` - problem description
+        - `Solution.java` - solution code
+    - `implementation/` - more complex problems can be added here
+  - (IDE and build files)
+
+- `.gitignore` - ignores IDE, build, and OS files
+- `README.md` - this file
 
 ## Purpose
 
@@ -22,8 +27,9 @@ It is designed to demonstrate clean code, problem-solving skills, and algorithmi
 ## How to Run
 
 Each problem folder contains a `Solution.java` file.  
-You can compile and run it using:
+You can compile and run it from the project root using:
 
 ```bash
-javac Solution.java
-java Solution
+javac -d bin src/main/java/algorithms/warmup/plusminus/Solution.java
+java -cp bin algorithms.warmup.plusminus.Solution
+
