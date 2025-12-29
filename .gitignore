@@ -1,4 +1,4 @@
-# ===== IDE Files =====
+# IDE Files
 .idea/
 *.iml
 .metadata/
@@ -7,12 +7,16 @@
 .project
 .vscode/
 
-# ===== Build Output =====
+# Build output
 out/
 target/
 bin/
 *.class
 
-# ===== OS Files =====
+# OS files
 .DS_Store
 Thumbs.db
+
+
+
+

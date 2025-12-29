@@ -1,0 +1,8 @@
+Problem: Plus Minus
+
+Given an integer array, calculate the ratios of its elements
+that are positive, negative, and zero.
+
+Output should be printed with 6 decimal places.
+
+This solution uses random test data to demonstrate functionality.
