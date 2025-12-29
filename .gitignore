@@ -1,0 +1,18 @@
+# ===== IDE Files =====
+.idea/
+*.iml
+.metadata/
+.settings/
+.classpath
+.project
+.vscode/
+
+# ===== Build Output =====
+out/
+target/
+bin/
+*.class
+
+# ===== OS Files =====
+.DS_Store
+Thumbs.db
